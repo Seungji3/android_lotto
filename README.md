@@ -4,8 +4,12 @@
 
 
 
-  //로또 번호를 중복을 허용하고 생성하는 함수
-    private fun getLottoNumber1() {
+
+
+
+
+  	//로또 번호를 중복을 허용하고 생성하는 함수
+   		 private fun getLottoNumber1() {
 		val rnd = Random()
 		val lotto = IntArray(6)
 		for (i in lotto.indices) {
@@ -18,7 +22,7 @@
 		setTvNumber(lotto[3], binding.tvLotto4)
 		setTvNumber(lotto[4], binding.tvLotto5)
 		setTvNumber(lotto[5], binding.tvLotto6)
-  } 
+  	} 
   
   
   
